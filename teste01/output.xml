@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.4 on win32)" generated="20230811 09:18:51.711" rpa="false" schemaversion="4">
+<suite id="s1" name="Teste" source="c:\LucasWorkSpace\RobotFrameWork\teste01\teste.robot">
+<test id="s1-t1" name="Cenário 1: Acessando o site do Robot" line="12">
+<kw name="Abrir Site">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>https://mail.google.com/ chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230811 09:18:52.118" level="INFO">Opening browser 'firefox' to base url 'https://mail.google.com/ chrome'.</msg>
+<msg timestamp="20230811 09:18:52.964" level="WARN">The version of firefox cannot be detected. Trying with latest driver version</msg>
+<msg timestamp="20230811 09:18:52.997" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg timestamp="20230811 09:18:52.998" level="FAIL">NoSuchDriverException: Message: Unable to obtain driver for firefox using Selenium Manager.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+</msg>
+<status status="FAIL" starttime="20230811 09:18:52.117" endtime="20230811 09:18:53.013"/>
+</kw>
+<status status="FAIL" starttime="20230811 09:18:52.115" endtime="20230811 09:18:53.014"/>
+</kw>
+<status status="FAIL" starttime="20230811 09:18:52.114" endtime="20230811 09:18:53.015">NoSuchDriverException: Message: Unable to obtain driver for firefox using Selenium Manager.; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors/driver_location
+</status>
+</test>
+<status status="FAIL" starttime="20230811 09:18:51.733" endtime="20230811 09:18:53.016"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Teste">Teste</stat>
+</suite>
+</statistics>
+<errors>
+<msg timestamp="20230811 09:18:52.964" level="WARN">The version of firefox cannot be detected. Trying with latest driver version</msg>
+</errors>
+</robot>
